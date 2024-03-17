@@ -33,16 +33,20 @@
 // // Age: 17
 // // Grade: 11th grade"
 
+console.log("Задание 1: Управление библиотекой книг");
 class Book {
     // Свойства класса.
-    title = "Title";
-    author = "Author";
-    pages = "42";
+    title = "";
+    author = "";
+    pages = 0;
     // Конструктор класса, мы изучим его подробнее на следующем уроке.
     constructor() {}
     // Метод класса.
     displayInfo() {
-        console.log("Hello, Book!");
+        console.log(`Hello, Book!`);
+        console.log(`Title: ${this.title}`);
+        console.log(`Author: ${this.author}`);
+        console.log(`Pages: ${this.pages}`);
     }
 }
 
@@ -53,6 +57,7 @@ console.log(myBook);
 
 myBook.displayInfo();
 
+console.log("Задание 2: Управление списком студентов");
 class Student {
     // Конструктор класса, мы изучим его подробнее на следующем уроке.
     constructor(name, age, grade) {
