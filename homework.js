@@ -39,7 +39,7 @@ class Book {
     title = "";
     author = "";
     pages = 0;
-    // Конструктор класса, мы изучим его подробнее на следующем уроке.
+
     constructor() {}
     // Метод класса.
     displayInfo() {
@@ -56,10 +56,9 @@ const myBook = new Book();
 console.log(myBook);
 
 myBook.displayInfo();
-
+// -------------------------------------------------------
 console.log("Задание 2: Управление списком студентов");
 class Student {
-    // Конструктор класса, мы изучим его подробнее на следующем уроке.
     constructor(name, age, grade) {
         this.name = name;
         this.age = age;
